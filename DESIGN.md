@@ -372,7 +372,10 @@ LEAGUE OF LEGENDS
 19:00—23:30 JST
 4 TEAMS / 20 PLAYERS
 UPCOMING
+YOUTUBE LIVE / WATCH STREAM
 ```
+
+配信URLがある場合は、各カード内にYouTube配信ボタンを常時表示する。新しいタブで開き、外部リンクであることを矢印で明示する。
 
 ステータスはJavaScriptでJST基準に自動判定：
 
@@ -387,30 +390,35 @@ UPCOMING
 - 開催日時: 2026年9月19日(土) 19:00-23:30
 - 参加チーム数: 4
 - 参加者数: 20
+- 配信: https://youtube.com/live/0CCF2n88eq4?feature=share
 
 ### sifue杯2026 VALORANT部門
 
 - 開催日時: 2026年9月20日(日) 19:00-23:30
 - 参加チーム数: 2
 - 参加者数: 10
+- 配信: https://youtube.com/live/yeHR9xMluS4?feature=share
 
 ### sifue杯2026 オーバーウォッチ部門
 
 - 開催日時: 2026年9月21日(月) 19:00-23:30
 - 参加チーム数: 2
 - 参加者数: 10
+- 配信: https://youtube.com/live/g0F21rPJpAQ?feature=share
 
 ### sifue杯2026 ロケットリーグ部門
 
 - 開催日時: 2026年9月22日(火) 13:00-15:30
 - 参加チーム数: 3
 - 参加者数: 9
+- 配信: https://youtube.com/live/diY0q5pa3aA?feature=share
 
 ### sifue杯2026 シャドウバース Worlds Beyond部門
 
 - 開催日時: 2026年9月23日(水) 13:00-15:30
 - 参加チーム数: 2
 - 参加者数: 6
+- 配信: https://youtube.com/live/X61vAb_KsXo?feature=share
 
 ## 10.3 Card motion
 

@@ -10,6 +10,7 @@ export const tournaments2026 = [
     end: '2026-09-19T23:30:00+09:00',
     teams: 4,
     players: 20,
+    stream: 'https://youtube.com/live/0CCF2n88eq4?feature=share',
   },
   {
     id: 'valorant-2026',
@@ -22,6 +23,7 @@ export const tournaments2026 = [
     end: '2026-09-20T23:30:00+09:00',
     teams: 2,
     players: 10,
+    stream: 'https://youtube.com/live/yeHR9xMluS4?feature=share',
   },
   {
     id: 'overwatch-2026',
@@ -34,6 +36,7 @@ export const tournaments2026 = [
     end: '2026-09-21T23:30:00+09:00',
     teams: 2,
     players: 10,
+    stream: 'https://youtube.com/live/g0F21rPJpAQ?feature=share',
   },
   {
     id: 'rocket-league-2026',
@@ -46,6 +49,7 @@ export const tournaments2026 = [
     end: '2026-09-22T15:30:00+09:00',
     teams: 3,
     players: 9,
+    stream: 'https://youtube.com/live/diY0q5pa3aA?feature=share',
   },
   {
     id: 'shadowverse-wb-2026',
@@ -58,6 +62,7 @@ export const tournaments2026 = [
     end: '2026-09-23T15:30:00+09:00',
     teams: 2,
     players: 6,
+    stream: 'https://youtube.com/live/X61vAb_KsXo?feature=share',
   },
 ];
 

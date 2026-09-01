@@ -7,26 +7,31 @@ sifue杯(しふーはい, sifue Cup)とは、学校法人日本財団ドワン�
 - 開催日時: 2026年9月19日(土) 19:00-23:30
 - 参加チーム数: 4
 - 参加者数: 20
+- 配信: https://youtube.com/live/0CCF2n88eq4?feature=share
 
 ## sifue杯2026 VALORANT部門
 - 開催日時: 2026年9月20日(日) 19:00-23:30
 - 参加チーム数: 2
 - 参加者数: 10
+- 配信: https://youtube.com/live/yeHR9xMluS4?feature=share
 
 ## sifue杯2026 オーバーウォッチ部門
 - 開催日時: 2026年9月21日(月) 19:00-23:30
 - 参加チーム数: 2
 - 参加者数: 10
+- 配信: https://youtube.com/live/g0F21rPJpAQ?feature=share
 
 ## sifue杯2026 ロケットリーグ部門
 - 開催日時: 2026年9月22日(火) 13:00-15:30
 - 参加チーム数: 3
 - 参加者数: 9
+- 配信: https://youtube.com/live/diY0q5pa3aA?feature=share
 
 ## sifue杯2026 シャドウバース Worlds Beyond部門
 - 開催日時: 2026年9月23日(水) 13:00-15:30
 - 参加チーム数: 2
 - 参加者数: 6
+- 配信: https://youtube.com/live/X61vAb_KsXo?feature=share
 
 # 2025
 ## LoL初心者sifue杯

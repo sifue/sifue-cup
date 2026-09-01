@@ -37,6 +37,9 @@ function tournamentTemplate(tournament, index) {
         <p>GAME TITLE</p>
         <h3 id="${tournament.id}-title">${tournament.shortTitle}</h3>
         <span class="tournament-card__star" aria-hidden="true">✦</span>
+        <a class="tournament-card__stream" href="${tournament.stream}" target="_blank" rel="noopener noreferrer" aria-label="${tournament.title}の配信をYouTubeで見る（新しいタブで開きます）">
+          <span><small>YOUTUBE LIVE</small>▶ WATCH STREAM</span><b aria-hidden="true">↗</b>
+        </a>
       </div>
       <div class="tournament-card__schedule">
         <p><span>${tournament.dateLabel}</span><strong>${tournament.timeLabel} <small>JST</small></strong></p>

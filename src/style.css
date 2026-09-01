@@ -153,6 +153,10 @@ img { display: block; max-width: 100%; }
 .tournament-card--shadowverse-wb-2026 h3 { font-size: clamp(38px, 4.7vw, 68px); }
 .tournament-card__star { position: absolute; top: -8px; right: 4px; color: var(--gold); opacity: 0; font-size: 24px; transform: scale(.5) rotate(-25deg); transition: opacity .25s, transform .3s; }
 .tournament-card:hover .tournament-card__star { opacity: 1; transform: scale(1) rotate(0); }
+.tournament-card__stream { display: inline-flex; min-width: 190px; min-height: 42px; align-items: center; justify-content: space-between; gap: 24px; margin-top: 18px; padding: 8px 12px; border: 1px solid rgba(198,78,57,.62); color: var(--cream); background: rgba(198,78,57,.08); font-family: var(--display); font-size: 12px; font-weight: 700; letter-spacing: .08em; transition: color .25s, background .25s, border-color .25s, transform .25s; }
+.tournament-card__stream small { display: block; margin-bottom: 1px; color: var(--red); font-size: 8px; letter-spacing: .14em; transition: color .25s; }
+.tournament-card__stream:hover { border-color: var(--red); background: var(--red); transform: translateY(-2px); }
+.tournament-card__stream:hover small { color: rgba(255,255,255,.78); }
 .tournament-card__schedule { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--line); }
 .tournament-card__schedule p { display: grid; gap: 3px; margin: 0; padding-top: 14px; }
 .tournament-card__schedule p + p { padding-left: 18px; border-left: 1px solid var(--line); }
@@ -277,6 +281,7 @@ tbody th { width: 100px; color: var(--lime); font-family: var(--display); font-s
   .tournament-card:nth-child(n) { grid-column: 1; min-height: 310px; padding: 20px; }
   .tournament-card h3, .tournament-card:nth-child(3) h3 { font-size: clamp(42px, 13vw, 59px); }
   .tournament-card--shadowverse-wb-2026 h3 { font-size: clamp(37px, 11vw, 50px); }
+  .tournament-card__stream { min-width: 176px; min-height: 40px; margin-top: 14px; }
   .tournament-card__schedule { grid-template-columns: 1fr; }
   .tournament-card__schedule p + p { margin-top: 10px; padding-left: 0; border-left: 0; }
   .archive { padding-block: 95px; }

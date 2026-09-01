@@ -6,12 +6,26 @@ test('主要コンテンツと外部リンクが表示される', async ({ page 
   await expect(page).toHaveTitle(/sifue杯/);
   await expect(page.getByRole('heading', { level: 1 })).toContainText('PLAY. COMPETE.');
   await expect(page.locator('.tournament-card')).toHaveCount(5);
+  await expect(page.getByRole('link', { name: /の配信をYouTubeで見る/ })).toHaveCount(5);
   await expect(page.locator('.archive-card')).toHaveCount(2);
   await expect(page.getByRole('heading', { name: 'SHADOWVERSE WORLDS BEYOND' })).toBeVisible();
   await expect(page.getByText('チームサファイア', { exact: true })).toBeVisible();
   await expect(page.getByText('(サポートメンバー参加)', { exact: true })).toBeVisible();
   await expect(page.getByRole('link', { name: /配信アーカイブ/ })).toHaveCount(2);
   await expect(page.getByRole('link', { name: 'EMAIL' })).toHaveAttribute('href', 'mailto:sifue@soichiro.org');
+});
+
+test('2026年の各配信リンクがCONTENTS.mdのURLと一致する', async ({ page }) => {
+  await page.goto('/');
+
+  const links = await page.locator('.tournament-card__stream').evaluateAll((elements) => elements.map((element) => element.href));
+  expect(links).toEqual([
+    'https://youtube.com/live/0CCF2n88eq4?feature=share',
+    'https://youtube.com/live/yeHR9xMluS4?feature=share',
+    'https://youtube.com/live/g0F21rPJpAQ?feature=share',
+    'https://youtube.com/live/diY0q5pa3aA?feature=share',
+    'https://youtube.com/live/X61vAb_KsXo?feature=share',
+  ]);
 });
 
 test('2026年の開催前ステータスをJST日時から表示する', async ({ page }) => {
