@@ -290,7 +290,7 @@ PCのみ：
 Hero直下に横長tickerを置く。
 
 ```text
-LEAGUE OF LEGENDS  ✦  VALORANT  ✦  OVERWATCH  ✦  ROCKET LEAGUE  ✦  SHADOWVERSE WB
+LEAGUE OF LEGENDS  ✦  VALORANT  ✦  OVERWATCH  ✦  ROCKET LEAGUE  ✦  SHADOWVERSE WORLDS BEYOND
 ```
 
 - 黒背景
@@ -358,7 +358,7 @@ PC：5枚を固定5列に押し込まない。
 ```text
 [ LoL          ][ VALORANT     ]
 [ OVERWATCH    ][ ROCKET LEAGUE]
-[ SHADOWVERSE WB              ]
+[ SHADOWVERSE WORLDS BEYOND   ]
 ```
 
 または 12-column grid でサイズ差を付ける。
@@ -406,7 +406,7 @@ UPCOMING
 - 参加チーム数: 3
 - 参加者数: 9
 
-### sifue杯2026 シャドウバースWB部門
+### sifue杯2026 シャドウバース Worlds Beyond部門
 
 - 開催日時: 2026年9月23日(水) 13:00-15:30
 - 参加チーム数: 2
@@ -463,7 +463,7 @@ CHAMPION
 | --- | --- |
 | TOP | isseyrockwell#7256 |
 | JG | naruneco#5909 |
-| MID | (コーチ参加者予定) |
+| MID | (サポートメンバー参加) |
 | BOT | chanbethe8east#1412 |
 | SUP | さゆう#310 |
 
@@ -868,8 +868,8 @@ const tournaments2026 = [
   },
   {
     id: 'shadowverse-wb-2026',
-    title: 'sifue杯2026 シャドウバースWB部門',
-    shortTitle: 'SHADOWVERSE WB',
+    title: 'sifue杯2026 シャドウバース Worlds Beyond部門',
+    shortTitle: 'SHADOWVERSE WORLDS BEYOND',
     start: '2026-09-23T13:00:00+09:00',
     end: '2026-09-23T15:30:00+09:00',
     teams: 2,

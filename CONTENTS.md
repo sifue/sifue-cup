@@ -23,7 +23,7 @@ sifue杯(しふーはい, sifue Cup)とは、学校法人日本財団ドワン�
 - 参加チーム数: 3
 - 参加者数: 9
 
-## sifue杯2026 シャドウバースWB部門
+## sifue杯2026 シャドウバース Worlds Beyond部門
 - 開催日時: 2026年9月23日(水) 13:00-15:30
 - 参加チーム数: 2
 - 参加者数: 6
@@ -41,7 +41,7 @@ sifue杯(しふーはい, sifue Cup)とは、学校法人日本財団ドワン�
 | :---- | :---- |
 | **TOP** | **isseyrockwell\#7256** |
 | **JG** | **naruneco\#5909** |
-| **MID** | **(コーチ参加者予定)** |
+| **MID** | **(サポートメンバー参加)** |
 | **BOT** | **chanbethe8east\#1412** |
 | **SUP** | **さゆう\#310** |
 
@@ -72,4 +72,3 @@ sifue (吉村総一郎)
 - Twitch: https://www.twitch.tv/sifue4466
 - ポートフォリオサイト: https://www.soichiro.org/
 - 連絡先: sifue@soichiro.org
-
