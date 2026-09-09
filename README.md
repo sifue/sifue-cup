@@ -82,4 +82,23 @@ canonical URLとOGP画像URLは `https://sifue-cup.pages.dev/` を設定して�
 
 ## バージョン
 
-現在のバージョンは `1.2.0` です。更新時はセマンティックバージョニングに従って `package.json` と `CHANGELOG.md` を更新してください。
+現在のバージョンは `1.3.0` です。更新時はセマンティックバージョニングに従って `package.json` と `CHANGELOG.md` を更新してください。
+
+## 配信スライドテンプレート
+
+[16:9 PPTXテンプレート](slides/generated/sifue-cup-stream-template.pptx) をGoogle Driveへアップロードし、Google Slidesで開いて使用できます。全13枚を用途に合わせて複製し、チーム名・スコアなどのテキストとロゴ・写真を編集します。
+
+- [13枚の配置一覧](slides/generated/overview.png)
+- [背景SVG / PNG](slides/generated/backgrounds/)
+- [操作手順と検証範囲](docs/stream-slides.md)
+
+デザイン仕様の正本は `DESIGN.md` 第3・4・33章です。スクリプトは仕様書からカラーとフォント・サイズ設定を直接読み込みます。
+
+```bash
+npm ci
+npm run slides:build
+npm run slides:check
+```
+
+`slides:build` はPptxGenJSでPPTXと背景素材を生成します。`slides:check` はPPTXの構造と文字枠を検証し、HTMLによる配置プレビューを撮影します。初回のみ `npx playwright install chromium` が必要です。
+生成先は `slides/generated/`。サイトの `public/` や `dist/` には含めないため、スライド素材はWebサイトへ自動公開されません。

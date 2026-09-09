@@ -1,6 +1,6 @@
 {
   "name": "sifue-cup-teaser",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "private": true,
   "type": "module",
   "description": "sifue杯の開催情報とアーカイブを掲載するティザーサイト",
@@ -10,10 +10,15 @@
     "preview": "vite preview",
     "test": "playwright test",
     "test:ui": "playwright test --ui",
+    "slides:build": "node scripts/generate-stream-slides.mjs",
+    "slides:check": "node scripts/check-stream-slides.mjs",
     "deploy": "npm run build && wrangler pages deploy dist --project-name=sifue-cup"
   },
   "devDependencies": {
     "@playwright/test": "^1.55.0",
+    "jszip": "^3.10.2",
+    "pptxgenjs": "^4.0.1",
+    "sharp": "^0.35.4",
     "vite": "^7.1.3",
     "wrangler": "^4.32.0"
   },

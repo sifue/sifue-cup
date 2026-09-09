@@ -1,0 +1,89 @@
+{
+  "aspectRatio": "16:9",
+  "previewType": "共通配置データのHTMLプレビュー。Google Slides実機検証は未実施。",
+  "fontStatus": {
+    "display": true,
+    "body": true
+  },
+  "textOverflow": [],
+  "slides": [
+    {
+      "slide": "00_TITLE",
+      "editableTextCount": 10,
+      "replaceableImageCount": 1,
+      "pngBackground": true
+    },
+    {
+      "slide": "01_STREAM_STARTING",
+      "editableTextCount": 11,
+      "replaceableImageCount": 1,
+      "pngBackground": true
+    },
+    {
+      "slide": "02_TODAY_SCHEDULE",
+      "editableTextCount": 23,
+      "replaceableImageCount": 0,
+      "pngBackground": true
+    },
+    {
+      "slide": "03_TEAM_VS",
+      "editableTextCount": 18,
+      "replaceableImageCount": 2,
+      "pngBackground": true
+    },
+    {
+      "slide": "04_PLAYER_INTRO",
+      "editableTextCount": 13,
+      "replaceableImageCount": 1,
+      "pngBackground": true
+    },
+    {
+      "slide": "05_MATCH_RULES",
+      "editableTextCount": 20,
+      "replaceableImageCount": 0,
+      "pngBackground": true
+    },
+    {
+      "slide": "06_MAP_PICK",
+      "editableTextCount": 19,
+      "replaceableImageCount": 3,
+      "pngBackground": true
+    },
+    {
+      "slide": "07_SCORE",
+      "editableTextCount": 15,
+      "replaceableImageCount": 2,
+      "pngBackground": true
+    },
+    {
+      "slide": "08_MATCH_RESULT",
+      "editableTextCount": 13,
+      "replaceableImageCount": 1,
+      "pngBackground": true
+    },
+    {
+      "slide": "09_BRACKET",
+      "editableTextCount": 24,
+      "replaceableImageCount": 0,
+      "pngBackground": true
+    },
+    {
+      "slide": "10_BREAK",
+      "editableTextCount": 11,
+      "replaceableImageCount": 1,
+      "pngBackground": true
+    },
+    {
+      "slide": "11_NEXT_MATCH",
+      "editableTextCount": 16,
+      "replaceableImageCount": 2,
+      "pngBackground": true
+    },
+    {
+      "slide": "12_STREAM_END",
+      "editableTextCount": 11,
+      "replaceableImageCount": 1,
+      "pngBackground": true
+    }
+  ]
+}
