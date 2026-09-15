@@ -82,7 +82,7 @@ canonical URLとOGP画像URLは `https://sifue-cup.pages.dev/` を設定して�
 
 ## バージョン
 
-現在のバージョンは `1.3.0` です。更新時はセマンティックバージョニングに従って `package.json` と `CHANGELOG.md` を更新してください。
+現在のバージョンは `1.4.0` です。更新時はセマンティックバージョニングに従って `package.json` と `CHANGELOG.md` を更新してください。
 
 ## 配信スライドテンプレート
 
@@ -102,3 +102,9 @@ npm run slides:check
 
 `slides:build` はPptxGenJSでPPTXと背景素材を生成します。`slides:check` はPPTXの構造と文字枠を検証し、HTMLによる配置プレビューを撮影します。初回のみ `npx playwright install chromium` が必要です。
 生成先は `slides/generated/`。サイトの `public/` や `dist/` には含めないため、スライド素材はWebサイトへ自動公開されません。
+
+## OBS用の時計オーバーレイ
+
+[配信用時計HTML](public/overlays/clock.html) をOBSのブラウザソースで「ローカルファイル」として指定してください。幅 **640**、高さ **144**。外部通信不要で、日本時間の日付と秒単位の時刻を表示します。透過背景・暗いパネル・回転リング・動くグラデーション付きです。
+
+[配置例・モーション設定・利用手順](docs/stream-clock.md) を参照してください。ビルド後は `dist/overlays/clock.html` にも出力されます。

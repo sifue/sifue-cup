@@ -47,3 +47,7 @@ HeroのPNG（約2MB）から約180KBのWebPを生成し、対応ブラウザに�
 ## Cloudflare Pages
 
 静的ファイルのみのためPages Functionsは使用しない。`wrangler.jsonc` の `pages_build_output_dir` は `./dist`。`public/_headers` はViteビルド時に出力先へコピーされ、セキュリティヘッダーとアセットキャッシュを設定する。
+
+## OBS時計素材
+
+`public/overlays/clock.html` はサイト本体と独立した単体HTMLで、Viteが本番の `dist/overlays/` にコピーする。CSS・JS・フォントを内蔵し、OBSのローカルブラウザソースでも動作する。Intl.DateTimeFormatでJST日時を毎秒取得し、CSSで装飾を動かす。仕様と利用方法は `docs/stream-clock.md`、検証は `tests/clock.spec.js`、合成プレビュー生成は `scripts/preview-stream-clock.mjs` に置く。
