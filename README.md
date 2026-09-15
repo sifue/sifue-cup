@@ -82,7 +82,7 @@ canonical URLとOGP画像URLは `https://sifue-cup.pages.dev/` を設定して�
 
 ## バージョン
 
-現在のバージョンは `1.4.0` です。更新時はセマンティックバージョニングに従って `package.json` と `CHANGELOG.md` を更新してください。
+現在のバージョンは `1.4.1` です。更新時はセマンティックバージョニングに従って `package.json` と `CHANGELOG.md` を更新してください。
 
 ## 配信スライドテンプレート
 

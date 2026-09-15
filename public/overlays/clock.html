@@ -29,7 +29,6 @@ body { font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif; color: var(-
 .time { display: flex; align-items: baseline; font-size: 66px; line-height: 1.03; font-variant-numeric: tabular-nums; letter-spacing: .01em; white-space: nowrap; }
 .digits { display: inline-block; width: 2ch; text-align: center; }
 .colon { color: var(--lime); animation: blink 1s ease-in-out infinite; }
-.seconds { color: var(--gold); }
 .orbit { position: relative; width: 46px; height: 46px; flex: none; display: grid; place-items: center; }
 .orbit::before { content: ''; position: absolute; inset: 0; border: 1px solid #bccd6e40; border-radius: 50%; }
 .rotor { position: absolute; inset: 0; border: 2px solid transparent; border-top-color: var(--lime); border-bottom-color: var(--lavender); border-radius: 50%; animation: spin 3.84s linear infinite; }
@@ -55,7 +54,7 @@ html[data-motion="reduce"] *, html[data-motion="reduce"] *::before, html[data-mo
     <div class="divider" aria-hidden="true"></div>
     <div class="readout">
       <div class="meta"><span>JAPAN STANDARD TIME</span><span class="signal" aria-hidden="true"><i></i><i></i><i></i></span></div>
-      <time class="time" id="time" aria-label="日本時間"><span class="digits" id="hours">--</span><span class="colon">:</span><span class="digits" id="minutes">--</span><span class="colon">:</span><span class="digits seconds" id="seconds">--</span></time>
+      <time class="time" id="time" aria-label="日本時間"><span class="digits" id="hours">--</span><span class="colon">:</span><span class="digits" id="minutes">--</span><span class="colon">:</span><span class="digits" id="seconds">--</span></time>
     </div>
     <div class="orbit" aria-hidden="true"><div class="rotor"></div><svg viewBox="0 0 24 24"><path fill="currentColor" d="m12 1 3.7 7.3L23 12l-7.3 3.7L12 23l-3.7-7.3L1 12l7.3-3.7Z"/></svg></div>
   </section>
